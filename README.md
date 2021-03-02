@@ -25,11 +25,11 @@ info.
   
 - I used Spring Data JPA to persist data
 
-##Postman post:
+**Postman post:**
 
 http://localhost:8080/payment/pay
 
-###with body:
+**with body:**
 
 {
 "userId": 1,
@@ -39,7 +39,7 @@ http://localhost:8080/payment/pay
 "cardnumber": "5469 9879 5467 2135"
 }
 
-##Postman get
+**Postman get**
 This will return processed payments from database
 
 http://localhost:8080/payment/getPayments/1
